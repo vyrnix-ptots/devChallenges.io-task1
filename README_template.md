@@ -1,18 +1,18 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name} | devChallenges</h1>
+<h1 align="center">{devChallenges.io-task1} | devChallenges</h1>
 
 <div align="center">
-   Solution for a challenge <a href="https://devchallenges.io/challenge/simple-faq-challenge" target="_blank">Simple FAQ</a> from <a href="http://devchallenges.io" target="_blank">devChallenges.io</a>.
+   Solution for a challenge <a href="https://vyrnix-ptots.github.io/devChallenges.io-task1/" target="_blank">Simple FAQ</a> from <a href="http://devchallenges.io" target="_blank">devChallenges.io</a>.
 </div>
 
 <div align="center">
   <h3>
-    <a href="{https://your-demo-link.your-domain}">
+    <a href="{https://devchallenges.io/challenge/simple-faq-challenge}">
       Demo
     </a>
     <span> | </span>
-    <a href="{https://your-url-to-the-solution}">
+    <a href="{https://vyrnix-ptots.github.io/devChallenges.io-task1/}">
       Solution
     </a>
     <span> | </span>
@@ -83,4 +83,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 ## Author
 
 - Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
+- GitHub [vyrnix-ptots](https://{github.com/vyrnix-ptots})

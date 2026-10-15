@@ -17,8 +17,7 @@
 
       .header{
         text-align: center;
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding: 50px;
       }
 
       body {
@@ -30,6 +29,7 @@
         padding-top: 50px;
         padding-bottom: 50px;
         padding-left: 30%;
+        padding-right: 30%;
         background-color: rgb(55, 65, 81,0.04);
       }
 
@@ -41,12 +41,31 @@
         padding-left: 3%;
       }
 
+      .track-order ol li{
+        margin-bottom: 10px;
+        margin-top: 0px;
+      }
+
+      .line{
+        border: none;
+        height: 1px;
+        background-color: rgb(216, 216, 219, 0.5);
+        margin: 30px 0;
+      }
+
       .return-policy a{
         text-decoration: none;
       }
 
-      .return-policy ul{
+      .return-policy ul {
         padding-left: 3%;
+        border: none;
+        line-break: auto;
+      }
+
+      .return-policy ul li{
+        margin-bottom: 10px;
+        margin-top: 0px;
       }
 
       .author-info {
@@ -60,11 +79,17 @@
       }
 
       @media screen  and (min-wdth: 768px){
-        .container{
+        .content{
           width:750px;
           padding: 30px;
         }
-        
+      }
+
+      @media screen and (max-width:480px){
+        .content{
+        width:100%;
+        padding: 15px;
+        }
       }
     </style>
   </head>
@@ -72,11 +97,11 @@
   <div class="container">
     <body>
       <div class="header">
-      <header>
-        <h1>Frequently Asked Questions</h1>
-      </header>
+        <header>
+          <h1>Frequently Asked Questions</h1>
+        </header>
 
-      <p>Browse through the most frequently asked questions</p>
+        <p>Browse through the most frequently asked questions</p>
       </div>
 
       <div class="content">
@@ -93,7 +118,7 @@
             If you encounter any issues, please visit our <a href="#" target="_blank">Help Center</a>.</p>
         </div>
         
-        <br><br><br>
+        <hr class="line">
 
         <div class="return-policy">
           <h3>What is your return policy?</h3>
@@ -101,9 +126,9 @@
             <p>We offer a 30-day return policy on most items. Here are some key points 
             
               <ul><br>
-                <li>Items must be in original condition: Unworn, unused, and unwashed.</li>
-                <li>Include original packaging and tags: All items should be returned with their original packaging and tags.</li>
-                <li>Proof of purchase: A receipt or proof of purchase is required.</li>
+                <li><strong>Items must be in original condition</strong>: Unworn, unused, and unwashed.</li>
+                <li><strong>Include original packaging and tags</strong>: All items should be returned with their original packaging and tags.</li>
+                <li><strong>Proof of purchase</strong>: A receipt or proof of purchase is required.</li>
               </ul> <br>
             
             For more detailed information, read our full <a href="#" target="_blank">Return Policy</a>.</p>
